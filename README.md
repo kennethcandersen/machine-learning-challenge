@@ -12,7 +12,7 @@
 
 * **Mission:** Create a machine learning model that identifies possible new planets using data raw dataset NASA's Kepler space telescope.
 
-* **Conclusion:** A TensorFlow-Keras neural network achieved an accuracy of .75, the strongest of the various models that were tested. 
+* **Conclusion:** A TensorFlow-Keras neural network achieved an accuracy of .75, the strongest of the various models that were tested. While these results would be useful to prioritize manual analysis of candidate planets, it falls short of being able to automatically predict which candidates are plantes. 
 
 **REPOSITORY NAVIGATION**
 
