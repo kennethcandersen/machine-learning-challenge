@@ -16,7 +16,7 @@
 
 **REPOSITORY NAVIGATION**
 
-* [*Jupyter Notebook*](https://github.com/kennethcandersen/machine-learning-challenge/blob/main/exoplanet_model.ipynb) with the data Extraction, Cleaning, Preparation, and Analysis. 
+* [*Jupyter Notebook*](https://github.com/kennethcandersen/machine-learning-challenge/blob/main/exoplanet_model.ipynb) with the data extraction, cleaning, preparation, model construction and comparison. 
 * [*Saved TensorFlow-Keras Model H5 File*](https://github.com/kennethcandersen/machine-learning-challenge/blob/main/exoplanet_prediction.h5) provides an exported version of the model that can be imported by other users. 
 * [*Original data file from NASA*](https://github.com/kennethcandersen/machine-learning-challenge/blob/main/exoplanet_data.csv) with nearly 7,000 observations. 
 
