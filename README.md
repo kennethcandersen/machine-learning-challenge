@@ -17,8 +17,13 @@
 
 * [*Jupyter Notebook*](https://github.com/kennethcandersen/machine-learning-challenge/blob/main/exoplanet_model.ipynb) with the data Extraction, Cleaning, Preparation, and Analysis. 
 * [*Saved TensorFlow-Keras Model H5 File*](https://github.com/kennethcandersen/machine-learning-challenge/blob/main/exoplanet_prediction.h5) provides an exported version of the model that can be imported by other users. 
-* * [*Original data file from NASA*](https://github.com/kennethcandersen/machine-learning-challenge/blob/main/exoplanet_data.csv) with nearly 7,000 observations. 
+* [*Original data file from NASA*](https://github.com/kennethcandersen/machine-learning-challenge/blob/main/exoplanet_data.csv) with nearly 7,000 observations. 
 
+** ASSUMPTIONS & RESULTS **
+* Histograms of the 8 main data columns revealed that several of them mirrored each other and didn't have very interesting distributions. 5 columns were chosen as features for the models. 
+* The KNN model, even after GridSearchCV tuning, returned an accuracy of .61.
+* The SVC fit process took an excessive amount of time and the model was discarded. 
+* The TensorFlow-Keras Neural Network, after experimenting with various quantities of layers, units and features, returned an Accuracy of .75. It was the most effective model tested, although it still did not result in a very high level of confidence. 
 
 **STEPS, TOOLS & LANGUAGES USED**
 
