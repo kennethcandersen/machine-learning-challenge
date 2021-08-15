@@ -10,9 +10,9 @@
 
 **EXECUTIVE SUMMARY**
 
-**Mission:** Create a machine learning model that identifies possible new planets using data raw dataset NASA's Kepler space telescope.
+* **Mission:** Create a machine learning model that identifies possible new planets using data raw dataset NASA's Kepler space telescope.
 
-**Conclusion:** A TensorFlow-Keras neural network achieved an accuracy of .75, the strongest of the various models that were tested. 
+* **Conclusion:** A TensorFlow-Keras neural network achieved an accuracy of .75, the strongest of the various models that were tested. 
 
 **REPOSITORY NAVIGATION**
 
@@ -20,7 +20,7 @@
 * [*Saved TensorFlow-Keras Model H5 File*](https://github.com/kennethcandersen/machine-learning-challenge/blob/main/exoplanet_prediction.h5) provides an exported version of the model that can be imported by other users. 
 * [*Original data file from NASA*](https://github.com/kennethcandersen/machine-learning-challenge/blob/main/exoplanet_data.csv) with nearly 7,000 observations. 
 
-** ASSUMPTIONS & RESULTS **
+**ASSUMPTIONS & RESULTS**
 * Histograms of the 8 main data columns revealed that several of them mirrored each other and didn't have very interesting distributions. 5 columns were chosen as features for the models. 
 * The KNN model, even after GridSearchCV tuning, returned an accuracy of .61.
 * The SVC fit process took an excessive amount of time and the model was discarded. 
